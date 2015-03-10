@@ -1,13 +1,15 @@
-=========
-podsay-py
-=========
+# podsay
+This is a Python implementation (though not a faithful port) of [https://github.com/kevinschaul/yosay](https://github.com/kevinschaul/yosay).
 
-podsay-py is a python implementation of the podsay program by Tony Monroe: http://www.nog.net/~tony/warez/podsay.shtml
+# Installation
+`pip install podsay`
 
-Copyright 2015 John Muyskens <jmuyskens@gmail.com>
+# Usage
 
+	from podsay.podsay import podsay
+	podsay("Hello, world!")
 
-LICENSE
+# License
 
 podsay-py is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
